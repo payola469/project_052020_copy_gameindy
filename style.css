@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    background-color: black;
+
+}
+
+.nav-menu{
+    background-color: #333;
+}
+.nav-menu .nav{
+    list-style-type: none; /* เอาขีดหัวข้อของ li ออก */
+    padding: 15px;
+    margin: 0px;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+li a{
+    color: #999999;
+    text-decoration: none; /* เอาเส้นใต้ออก */
+}
+
+li a:hover{
+    color: #ffffff;
+}
+
+.container #bg-gameindy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    color: white;
+    font-size: 42px;
+    padding-top: 30px;
+    padding-left: 300px;
+    padding-bottom: 30px;
+}
+.grid-games{
+    margin-left:220px ;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-item{
+    padding-bottom: 50px;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
